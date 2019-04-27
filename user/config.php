@@ -32,10 +32,10 @@ define( 'YOURLS_DB_PREFIX', 'yourls_' );
 
 /** YOURLS installation URL -- all lowercase, no trailing slash at the end.
  ** If you define it to "http://sho.rt", don't use "http://www.sho.rt" in your browser (and vice-versa) */
-define( 'YOURLS_SITE', 'http://your-own-domain-here.com' );
+define( 'YOURLS_SITE', 'https://rg06.kro.kr' );
 
 /** Server timezone GMT offset */
-define( 'YOURLS_HOURS_OFFSET', 0 ); 
+define( 'GMT+9', 0 ); 
 
 /** YOURLS language
  ** Change this setting to use a translation file for your language, instead of the default English.
@@ -54,13 +54,12 @@ define( 'YOURLS_UNIQUE_URLS', true );
 define( 'YOURLS_PRIVATE', true );
 
 /** A random secret hash used to encrypt cookies. You don't have to remember it, make it long and complicated. Hint: copy from http://yourls.org/cookie **/
-define( 'YOURLS_COOKIEKEY', 'modify this text with something random' );
-
+define( 'YOURLS_COOKIEKEY', 'W48wT#F5v9AtI%x66#nk~W1DfnqzDjO9)~s2#Y%_' );
 /** Username(s) and password(s) allowed to access the site. Passwords either in plain text or as encrypted hashes
  ** YOURLS will auto encrypt plain text passwords in this file
  ** Read http://yourls.org/userpassword for more information */
 $yourls_user_passwords = array(
-	'username' => 'password',
+	'regard0606' => 'minki0606',
 	// 'username2' => 'password2',
 	// You can have one or more 'login'=>'password' lines
 	);
